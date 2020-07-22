@@ -167,18 +167,9 @@ class ScanActivity : AppCompatActivity() {
                     val intent = Intent(applicationContext,ProductAdapter::class.java)
                     intent.putExtra("barcodenumbertext",textScanResult.text.toString())
                     startActivity(intent)
-                    // val barcodeNoMap = hashMapOf<String, Any>()
-                    // barcodeNoMap.put("barcodeNo", textScanResult.text.toString())
-                   // barcodeNoMap.put("name", textScanResult.text.toString())
-
-                  //  db.collection("Barcode").add(barcodeNoMap).addOnCompleteListener { task ->                    //add kısmında hashmap ekliyor
-                    //    if (task.isComplete && task.isSuccessful) {
-                           // val intent = Intent(applicationContext, ProductActivity::class.java)
-                           //startActivity(intent)
+                    
                      }
-                     //  finish()
-
-                   // } }
+                    
             }
         }
     }
